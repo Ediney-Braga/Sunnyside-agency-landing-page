@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-    font-family: 'Barlow', sans-serif
+    font-family: 'Barlow', sans-serif;
 }
 /* ---------------HEADER------------------- */
 header{
@@ -283,7 +283,17 @@ footer{
 #startMenuMobile{
     color: white;
     display: none;
-    font-size: 22px;
+    font-size: 29px;
+}
+
+#triangulo{
+    position: absolute;
+    right: 0;
+    top: -15%;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-right: 40px solid white;
 }
 
 /*-------------- RESPONSIVI -------------- */
@@ -337,6 +347,7 @@ footer{
     .testimonials{
         text-align: center;
         width: 100%;
+        margin-bottom: 30px;
         
     }
     
