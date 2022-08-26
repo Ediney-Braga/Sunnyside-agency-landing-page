@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Barlow', sans-serif
+}
+/* ---------------HEADER------------------- */
+header{
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size:cover;
+    background-position: center;
+    height:800px;
+    text-align: center;
+    display: block;
+}
+
+#topper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#logo img{
+    height: 31px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+header a{
+    font-size: 18px;
+    color: white;
+}
+
+.buttonContact{
+    font-size: 16px;
+    font-family: 'Fraunces', serif;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 50px;
+}
+
+.buttonContact:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.732);
+}
+
+h1{
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    margin-top: 55px;
+}
+
+#arrowDown{
+    height: 115px;
+    margin-top: 95px;
+    margin-bottom: 347px;
+}
+
+/* ---------END HEADER------------ */
+/* --------------MAIN------------- */
+section{
+    display: flex;
+}
+.box{
+    height:600px ;
+    width: 50%;
+    text-align: start;
+}
+
+.Ege{
+    background-image: url(./images/desktop/image-transform.jpg);  
+    background-position: center;  
+    background-size: cover;
+}
+.Cup{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;  
+    background-size: cover;
+}
+
+.loren{
+    background-color: white;
+    padding: 10vw;
+}
+
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.1em, 5vw, 3.1em);
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.loren p{
+    font-size: clamp(1.1em, 1.3vw, 2em);
+    color:#818498;
+    line-height: min(30px, 4vw);
+    margin-bottom: 40px;
+}
+
+.learnMore{
+    position: relative;
+    height: 10px;
+    width:130px;
+    border-radius: 10px;
+}
+.learnMore:hover{
+    cursor: pointer;
+}
+.lineYellow{
+    background-color: rgb(248, 226, 86);
+}
+.lineRed{
+    background-color: rgb(252, 178, 178);
+}
+
+h4{
+    color: black;
+    position: absolute;
+    top: -13px;
+    left: 7px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-position: center;
+    background-size: cover;
+}
+
+.center h3{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.center p{
+    font-size:16px ;
+    max-width : 350px;
+    line-height: 150%;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+
+.figureCereja{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    color:#25564b;
+}
+
+.figureTangerina{
+    background-image: url(./images/desktop/image-photography.jpg);
+    color: #19536b; 
+}
+
+/* --------------------------- */
+#clientTestimal{
+    height: 800px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#clientTestimal h1{
+    color: #818498;
+    font-size: 20px;   
+    text-align: center;
+}
+#clients{
+    margin-top: min(130px,20vw);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.testimonials{
+    text-align: center;
+    width: 380px;
+}
+
+.testimonials img{
+    height: 70px;
+    border-radius: 50%;
+}
+
+.testimonials p{
+    color: #818498;
+    font-size: clamp(1.1em, 2.2vw ,1.2em);
+    line-height: 150%;
+    margin: 50px 0px;
+    max-width: 370px;
+}
+
+.testimonials h3{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.testimonials span{
+    color: #a7abae;
+    font-size: 15px;
+}
+/* ------------------------------ */
+#imagens img{
+    width: 50%;
+}
+
+.imagensBackFooter{
+    display: flex;
+}
+/* -----------FOOTER------------------- */
+footer{
+    background-color:#90d4c5 ;
+    text-align: center;
+    padding: 70px;
+}
+#logoFooter{
+    width: 180px;
+}
+
+#menuFooter{
+    color: #458c7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+    margin: 50px;    
+}
+
+#menuFooter p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 90px;
+}
+
+#redes img:hover{
+    cursor: pointer;
+}
+/* ---------------- MENU MOBILE ------------- */
+
+#menuMobile{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+    width: 85%;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.buttonMobile{
+    background-color: yellow;
+    padding: 10px 20px;
+}
+
+#startMenuMobile{
+    color: white;
+    display: none;
+    font-size: 22px;
+}
+
+/*-------------- RESPONSIVI -------------- */
+
+@media only screen and (max-width:800px){
+    #menu{
+        display: none;
+    }
+    #logo img{
+        height: 25px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    header{
+        height: 500px;
+    }
+
+    section{
+        flex-direction:column;
+    }
+
+    #firstSection{
+        flex-direction: column-reverse;
+    }
+    
+    .box{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+    }
+
+    .box p{
+        line-height: 120%;
+    }
+    .learnMore{
+        margin: auto;
+    }
+
+    #clientTestimal{
+        height: auto;
+    }
+
+    #clients{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .testimonials{
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .testimonials img{
+        height: 70px;
+        border-radius: 50%;
+    }
+    
+    .testimonials p{
+        max-width: 100%;     
+        margin:20px;
+    }
+    
+    .imagensBackFooter{
+        display: flex;
+    }
+
+    #startMenuMobile{
+        display: block;
+    }
+} 
+
